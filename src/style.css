@@ -19,7 +19,7 @@ h1 {
   font-family: Pixelify Sans;
   color: white;
   font-weight: 300;
-  margin: 50px 50px 50px 50px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -40,13 +40,15 @@ button {
 }
 
 button:active {
-  background: gray; /* Cambia el color de fondo al hacer clic */
+  color: black;
+  background: rgb(147, 248, 186);
+  border: 1mm solid black;
 }
 
 #excusa {
   font-size: 38pt;
   font-family: Pixelify Sans;
-  color: rgb(202, 165, 255);
+  color: rgb(222, 199, 255);
   font-weight: 300;
   margin: 20px;
 }
@@ -66,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 800px;
+  width: 1700px;
   height: 300px;
 }
 .contenedor2 {
@@ -77,4 +79,8 @@ body {
   width: 1700px;
   height: 225px;
   margin-top: 200px;
+}
+
+.ganador {
+  color: rgb(94, 255, 94);
 }
